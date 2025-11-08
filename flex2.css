@@ -1,37 +1,25 @@
-/* x-axis main- row / xaxis */
-/* .box{
+.box{
     display: flex;
     border-color: black;
     border-style: solid;
-    height:90vh;
-    /* justify-content: space-around;
-     */
-     /* justify-content: space-evenly;
-      */
-      /* justify-content: space-between;
-      justify-content: flex-end; */
-      /* justify-content: space-around;
-      gap:10px;
-      flex-wrap: wrap;
-      align-items:center; */
-      /* //y axis */
-/* } */ 
-
-/* main - y  -> justifycntent -y axis */
-.box{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    height: 90vh;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .card{
-    margin:0px;
     width: 100px;
     height: 100px;
-    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 .c-1{
     background-color: pink;
@@ -46,5 +34,26 @@
     background-color: blue;
 }
 .c-5{
-    background-color: rgb(198, 111, 6);
+    background-color: rgb(136, 255, 100);
+}
+.c-6{
+    background-color: purple;
+}
+.c-7{
+    background-color: yellow;
+}
+.c-8{
+    background-color: cyan;
+}
+.c-9{
+    background-color: magenta;
+}
+.c-10{
+    background-color: lime;
+}
+.c-11{
+    background-color: teal;
+}
+.c-12{
+    background-color: coral;
 }
