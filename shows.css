@@ -22,7 +22,8 @@
 }
 
 .show_card>img:hover{
-    width:300px;
+    transition:0.5s;
+    width:270px;
 }
 
 .hiddenEle{
