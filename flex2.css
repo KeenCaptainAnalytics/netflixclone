@@ -1,0 +1,50 @@
+/* x-axis main- row / xaxis */
+/* .box{
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    height:90vh;
+    /* justify-content: space-around;
+     */
+     /* justify-content: space-evenly;
+      */
+      /* justify-content: space-between;
+      justify-content: flex-end; */
+      /* justify-content: space-around;
+      gap:10px;
+      flex-wrap: wrap;
+      align-items:center; */
+      /* //y axis */
+/* } */ 
+
+/* main - y  -> justifycntent -y axis */
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    margin:0px;
+    width: 100px;
+    height: 100px;
+    /* margin: 10px; */
+}
+.c-1{
+    background-color: pink;
+}
+.c-2{
+    background-color: orange;
+}
+.c-3{
+    background-color: red;
+}
+.c-4{
+    background-color: blue;
+}
+.c-5{
+    background-color: rgb(198, 111, 6);
+}
