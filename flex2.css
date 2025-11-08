@@ -24,7 +24,7 @@
     border: 1px solid black;
     height: 90vh;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
 }
 
 .card{
