@@ -1,0 +1,39 @@
+
+*{
+    background-color: black;
+    color:white;
+}
+
+.shows_container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.show_card{
+    width:250px;
+    position: relative;
+
+}
+
+.show_card>img{
+    width: 250px;
+    border-radius:10px;
+    cursor: pointer;
+
+}
+
+.show_card>img:hover{
+    width:300px;
+}
+
+.hiddenEle{
+    color: white;
+    /* border: 1px solid white; */
+    position: absolute;
+    top:0px;
+    display: none;
+    box-shadow: 0px 0px 20px white;
+    padding: 10px;
+    border-radius:  10px;
+
+}
